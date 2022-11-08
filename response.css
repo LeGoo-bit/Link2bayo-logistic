@@ -1,0 +1,41 @@
+@media screen and (max-width:360px) {
+    
+    #hero{
+        display: block;
+    }
+    .row h1{
+        
+        width: 100%;
+    }
+    
+    .col img{
+        width: 338px;
+    }
+    .out{
+        width: 100%;
+    }
+    .out button{
+        margin-left: 0px;
+    }
+    .row p{ 
+        width: 100%;
+        font-size: 13px;
+    }
+    .icons{
+        gap: 10px;
+    }
+    .social-icon{
+        padding: 5px;
+    }
+    #last{
+        height: auto;
+    }
+    
+    #last .row2{
+      display: block;
+      
+    }
+    .col2{
+        padding-left: 0px;
+    }
+}

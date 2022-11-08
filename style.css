@@ -1,0 +1,167 @@
+.container,
+.navbar-brand img {
+  width: 100px;
+}
+.navbar-nav {
+  padding-left: 30%;
+  
+}
+#navbarNav ul li {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  margin-left: 30%;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#hero {
+  padding-top: 100px;
+  
+}
+.icons {
+  display: flex;
+}
+.social-icon {
+  border: 2px solid green;
+  border-radius: 30px;
+  padding: 10px;
+}
+.row h1 {
+  font-size: 50px;
+}
+.row span {
+  color: green;
+}
+
+.out {
+  border: 2px solid green;
+  height: 50px;
+  width: 80%;
+  border-radius: 25px;
+}
+.out input {
+  margin-left: 30px;
+  padding-top: 10px;
+  border: none;
+  outline: none;
+}
+.out button {
+  margin-left: 120px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+.row p {
+  padding-top: 20px;
+  font-weight: 15px;
+  font-family: sans-serif;
+  width:67%;
+}
+.icons {
+  padding-top: 70px;
+  gap: 45px;
+}
+#last {
+  height: 110vh;
+  margin-top: 70px;
+  color: green;
+}
+.section-head h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.row2 {
+  display: flex;
+  gap: 20px;
+}
+.location,
+.call,
+.email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+.col1 {
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  box-shadow: 4px 4px 4px 4px gainsboro;
+  padding-left: 20px;
+}
+iframe {
+  width: 500px;
+  height: 350px;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+.div {
+  padding-left: 10px;
+}
+.div h3 {
+  font-size: 20px;
+  color: black;
+}
+.div p {
+  width: 25em;
+  font-size: 18x;
+}
+.social {
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #e7f5fb;
+}
+.col2 label {
+  color: black;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.col2 form {
+  padding-top: 30px;
+}
+.col2 input {
+  outline: none;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.btn2 input {
+  background-color: green;
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.col2 {
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  box-shadow: 4px 4px 4px 4px gainsboro;
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+footer strong {
+  font-size: 24px;
+}
