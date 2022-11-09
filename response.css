@@ -1,4 +1,4 @@
-@media screen and (max-width:360px) {
+@media screen and (max-width:720px) {
     
     #hero{
         display: block;
@@ -12,20 +12,22 @@
         width: 338px;
     }
     .out{
-        width: 100%;
+        width: 100% !important;
+        display: flex;
     }
     .out button{
-        margin-left: 0px;
+        margin: 10px !important;
     }
     .row p{ 
-        width: 100%;
-        font-size: 13px;
+        width: 80% !important;
+        font-size: 15px;
     }
     .icons{
-        gap: 10px;
+        gap: 15px !important;
+        padding-left: 30px !important;
     }
     .social-icon{
-        padding: 5px;
+        padding: 5px !important;
     }
     #last{
         height: auto;
@@ -33,9 +35,34 @@
     
     #last .row2{
       display: block;
-      
+      margin-bottom: 5px;
+    }
+    .col1{
+        padding-left: 0px !important;
+    }
+    .div h3 {
+        
     }
     .col2{
-        padding-left: 0px;
+        margin-top: 20px;
     }
+    .div{
+        padding-left: 0px;
+        
+    }
+    .div p {
+        width: 15em !important;
+    }
+    iframe {
+        width: 300px !important;
+      }
+    .btn2{
+        width: 100%;
+        padding-top: 20px !important;
+        margin-bottom: 20px;
+    }
+    .copy{
+        font-size: 16px;
+    }
+    
 }
